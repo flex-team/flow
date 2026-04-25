@@ -1,1 +1,8 @@
+pluginManagement {
+    repositories {
+        maven { url 'https://nexus.flexis.team/repository/gradle-portals' }
+        maven { url 'https://nexus.flexis.team/repository/maven-public' }
+    }
+}
+
 rootProject.name = "flow-gradle-plugin"
