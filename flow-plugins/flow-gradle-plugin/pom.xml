@@ -44,6 +44,7 @@
             </goals>
             <phase>prepare-package</phase>
             <configuration>
+              <workingDirectory>${project.basedir}</workingDirectory>
               <executable>${gradle.executable}</executable>
               <arguments>
                 <argument>clean</argument>
