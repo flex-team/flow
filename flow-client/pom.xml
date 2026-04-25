@@ -346,6 +346,7 @@
             </goals>
             <phase>validate</phase>
             <configuration>
+              <skip>${maven.test.skip}</skip>
               <executable>npm</executable>
               <arguments>
                 <argument>install</argument>
@@ -359,6 +360,7 @@
             </goals>
             <phase>validate</phase>
             <configuration>
+              <skip>${maven.test.skip}</skip>
               <executable>node</executable>
               <arguments>
                 <argument>node_modules/esbuild/install.js</argument>
@@ -372,6 +374,7 @@
             </goals>
             <phase>compile</phase>
             <configuration>
+              <skip>${maven.test.skip}</skip>
               <executable>npm</executable>
               <arguments>
                 <argument>run</argument>
